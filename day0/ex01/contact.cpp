@@ -23,11 +23,10 @@ void	Contact::take_info(void)
 	std::getline(std::cin, this->info[3]);
 	std::cout << "darkest secret : ";
 	std::getline(std::cin, this->info[4]);
-	std::cout << "///////////////////" << std::endl;
-	std::cout << "first name : " << this->info[0] << std::endl;
-	std::cout << "last name : " << this->info[1] << std::endl;
-	std::cout << "nickname : " << this->info[2] << std::endl;
-	std::cout << "phone number : " << this->info[3] << std::endl;
-	std::cout << "darkest secret : " << this->info[4] << std::endl;
+	//std::cout << "first name : " << this->info[0] << std::endl;
 	return ;
 }
+
+void	Contact::give_info(void)
+{
+
