@@ -29,4 +29,15 @@ void	Contact::take_info(void)
 
 void	Contact::give_info(void)
 {
+	std::cout << "#index = " << this->info[0] << " #" << std::endl;
+	std::cout << "#first name = " << this->info[1] << " #" << std::endl;
+	std::cout << "#last name = " << this->info[2] << " #" << std::endl;
+	std::cout << "#nickname = " << this->info[3] << " #" << std::endl;
+	return ;
+}
 
+void	Contact::give_litle_info(void)
+{
+	std::cout << "#"
+
+}

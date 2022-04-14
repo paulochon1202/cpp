@@ -8,8 +8,9 @@ public:
 	~Contact();
 	void	take_info(void);
 	void	give_info(void);
-	void	
+	void	give_litle_info(void);
 private:
-	std::string info[5];
 
+	std::string info[5];
+	int	index;
 };

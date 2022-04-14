@@ -17,7 +17,9 @@ int	main(int ac, char **av)
 		std::string urf (av[j]);
 		for (i = 0; i < urf.length(); i++)
 			std::cout << (char)std::toupper(urf[i]);
-		std::cout << std::endl;
+		if (j < ac - 1)
+			std::cout << " ";
 	}
+	std::cout << std::endl;
 	return 0;
 }
